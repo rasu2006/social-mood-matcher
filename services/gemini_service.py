@@ -31,7 +31,7 @@ class GeminiVisionAnalyzer:
         genai.configure(api_key=self.api_key)
         
         # Initialize model
-        self.model = genai.GenerativeModel('gemini-1.5-flash')
+        self.model = genai.GenerativeModel('gemini-2.5-flash-lite')
         
         print("Gemini API initialized successfully")
     
